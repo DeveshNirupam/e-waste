@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to your CSS file -->
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+        </ul>
+    </nav>
+
+    <!-- Main Content -->
+    <section id="main-content">
+        <h1>Welcome to the E-WASTE recycled Server</h1>
+        <p>Track and know about  the E-WASTE Component.</p>
+
+        <!-- Login Form -->
+        <div class="login-form">
+            <h2>Enter the Detail</h2>
+            <form action="/login" action="/upload" method="POST" enctype="multipart/form-data">
+                <label for="username">Name of Component:</label>
+                <input type="text" id="username" name="username" required>
+                <br>
+                <label for="password">Type of Component:</label>
+                <input type="password" id="password" name="password" required>
+
+              <!--<input type="submit" value="Submit"> 
+            </form> -->
+            <br>
+          <!--  <form action="/upload" method="POST" enctype="multipart/form-data"> -->
+                <table border="1">
+                    <thead>
+                        <tr>
+                           <!-- <th>Name</th>
+                            <th>Email</th> -->
+                            <th>Image of Component</th> <!-- Image Upload Column -->
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                           <!-- <td><input type="text" name="name" placeholder="Enter Name"></td>
+                            <td><input type="email" name="email" placeholder="Enter Email"></td> -->
+                            <td><input type="file" name="profileImage" accept="image/*"></td>
+                        </tr>
+                    </tbody>
+                </table>
+                <br>
+                <input type="submit" value="Submit"> 
+              <!--  <button type="submit">Submit</button> -->
+            </form>
+        </div>
+    </section>
+</body>
+</html>

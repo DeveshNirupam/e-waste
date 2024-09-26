@@ -1,0 +1,82 @@
+/* Basic styling for navigation */
+nav {
+    background-color: #333;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    color: #ffcc00;
+}
+
+/* Main content styling */
+#main-content, #about-content {
+    text-align: center;
+    margin-top: 50px;
+}
+
+h1 {
+    font-size: 36px;
+    color: #333;
+}
+
+p {
+    font-size: 18px;
+    color: #555;
+}
+
+/* Styling for login form */
+.login-form {
+    margin-top: 20px;
+    text-align: left;
+    display: inline-block;
+}
+
+.login-form h2 {
+    font-size: 24px;
+}
+
+.login-form label {
+    font-size: 16px;
+    color: #333;
+}
+
+.login-form input[type="text"], 
+.login-form input[type="password"] {
+    width: 200px;
+    padding: 8px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.login-form input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.login-form input[type="submit"]:hover {
+    background-color: #45a049;
+}
